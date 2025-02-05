@@ -17,6 +17,9 @@ inputs:
   AZURE_LOCATION:
     description: 'Azure location'
     required: true
+  AZURE_RESOURCE_GROUP:
+    description: 'Azure Resource Group Name'
+    required: true
   MANUAL_PROVISIONING:
     description: 'Will not provision the environment if value is true, default is false'
     required: true
